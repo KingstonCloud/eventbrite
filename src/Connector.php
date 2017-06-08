@@ -333,7 +333,7 @@ class Connector {
       throw new \RuntimeException($response->error);
     }
 
-    $this->setAccessToken($response->access_token);
+    $this->setAccessToken($response['access_token']);
   }
 
   /**
