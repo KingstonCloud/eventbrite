@@ -1,25 +1,19 @@
 {
-  "name": "orzmar/eventbrite_connector",
-  "description": "PHP Library for integration with Eventbrite API v3",
-  "type": "library",
-  "license": "MIT",
-  "keywords": [
-    "api",
-    "connector",
-    "eventbrite",
-    "event"
-  ],
-  "authors": [
-    {
-      "name": "Adriano Cori",
-      "email": "adriano.cori@bmeme.com"
-    }
-  ],
-  "require": {
-    "php": ">=5.5",
-    "guzzlehttp/guzzle": "^6.2"
-  },
-  "autoload": {
+    "name": "orzmar/eventbrite_connector",
+    "description": "PHP Library for integration with Eventbrite API v3",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+      "api",
+      "connector",
+      "eventbrite",
+      "event"
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
     "psr-4": {
       "EventBriteConnector\\": "src/"
     }
