@@ -15,7 +15,7 @@
     },
     "autoload": {
     "psr-4": {
-      "KingstonDop\\EventBrite\\": "src/"
+      "EventBrite\\": "src/"
     }
   }
 }

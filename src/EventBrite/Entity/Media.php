@@ -1,11 +1,11 @@
 <?php
 
-namespace KingstonDop\EventBrite\Entity;
+namespace EventBrite\Entity;
 
 /**
  * Class Media.
  *
- * @package KingstonDop\EventBrite\Entity
+ * @package EventBrite\Entity
  */
 class Media extends Entity {
 

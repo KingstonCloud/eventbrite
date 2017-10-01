@@ -1,15 +1,15 @@
 <?php
 
-namespace KingstonDop\EventBrite\Entity;
+namespace EventBrite\Entity;
 
-use KingstonDop\EventBrite\Entity\Crud\EntityCreateTrait;
-use KingstonDop\EventBrite\Entity\Crud\EntityDeleteTrait;
-use KingstonDop\EventBrite\Entity\Crud\EntityUpdateTrait;
+use EventBrite\Entity\Crud\EntityCreateTrait;
+use EventBrite\Entity\Crud\EntityDeleteTrait;
+use EventBrite\Entity\Crud\EntityUpdateTrait;
 
 /**
  * Class Series.
  *
- * @package KingstonDop\EventBrite\Entity
+ * @package EventBrite\Entity
  */
 class Series extends Entity {
 

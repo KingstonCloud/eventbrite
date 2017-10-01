@@ -1,15 +1,15 @@
 <?php
 
-namespace KingstonDop\EventBrite;
+namespace EventBrite;
 
-use KingstonDop\EventBrite\Entity\Entity;
+use EventBrite\Entity\Entity;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
 
 /**
  * Class Connector.
  *
- * @package KingstonDop\EventBrite
+ * @package EventBrite
  */
 class Connector {
 

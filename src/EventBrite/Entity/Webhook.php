@@ -1,14 +1,14 @@
 <?php
 
-namespace KingstonDop\EventBrite\Entity;
+namespace EventBrite\Entity;
 
-use KingstonDop\EventBrite\Entity\Crud\EntityCreateTrait;
-use KingstonDop\EventBrite\Entity\Crud\EntityDeleteTrait;
+use EventBrite\Entity\Crud\EntityCreateTrait;
+use EventBrite\Entity\Crud\EntityDeleteTrait;
 
 /**
  * Class Webhook.
  *
- * @package KingstonDop\EventBrite\Entity
+ * @package EventBrite\Entity
  */
 class Webhook extends Entity {
 

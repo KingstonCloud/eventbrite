@@ -1,13 +1,13 @@
 <?php
 
-namespace KingstonDop\EventBrite\Entity\Crud;
+namespace EventBrite\Entity\Crud;
 
-use KingstonDop\EventBrite\Entity\Entity;
+use EventBrite\Entity\Entity;
 
 /**
  * Class EntityUpdateTrait.
  *
- * @package KingstonDop\EventBrite\Entity
+ * @package EventBrite\Entity
  */
 trait EntityUpdateTrait {
 

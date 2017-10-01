@@ -2,13 +2,13 @@
 
 namespace EventBriteConnector\Entity;
 
-use KingstonDop\EventBrite\Entity\Crud\EntityCreateTrait;
-use KingstonDop\EventBrite\Entity\Crud\EntityUpdateTrait;
+use EventBrite\Entity\Crud\EntityCreateTrait;
+use EventBrite\Entity\Crud\EntityUpdateTrait;
 
 /**
  * Class Venue.
  *
- * @package KingstonDop\EventBrite\Entity
+ * @package EventBrite\Entity
  */
 class Venue extends Entity {
 
