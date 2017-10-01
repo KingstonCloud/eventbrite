@@ -93,8 +93,8 @@ criteria using the Entity **load()** method.
 
 ```php
 $eb->fetch('user')
-  ->load('organizers')
-  ->load('owned_events', ['status' => 'live', 'order_by' => 'start_desc']);
+    ->load('organizers')
+    ->load('owned_events', ['status' => 'live', 'order_by' => 'start_desc']);
 ```
 
 *Note: Is it possible to access last loaded data by using the Entity method 
