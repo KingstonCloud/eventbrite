@@ -49,7 +49,7 @@ Is it possible to *create* new entities* via the static method
 **create()** for each "creatable" Entity class:
 ```php
 <?php
-/** @var \EventBriteConnector\Entity\Event $event */
+/** @var \KingstonDop\EventBrite\Entity\Event $event */
 $event = Event::create($eb, [
   'event.name.html' => 'My new awesome event',
   'event.start.utc' => '2016-10-12T14:00:00Z',
@@ -67,7 +67,7 @@ method:
 
 ```php
 <?php
-/** @var \EventBriteConnector\Entity\Event $event */
+/** @var \KingstonDop\EventBrite\Entity\Event $event */
 $event->saveProperty('ticket_classes', [
   'ticket_class.name' => 'Early bird ticket',
   'ticket_class.description' => 'Special offer!',
@@ -104,7 +104,7 @@ to be changed as argument.
 
 ```php
 <?php
-/** @var \EventBriteConnector\Entity\Event $event */
+/** @var \KingstonDop\EventBrite\Entity\Event $event */
 $event->update([
   "name" => [
     'html' => 'Api updated event',
@@ -118,7 +118,7 @@ $event->update([
 Entities can be *deleted* by using the Entity **delete()** method:
 ```php
 <?php 
-/** @var \EventBriteConnector\Entity\Event $event */
+/** @var \KingstonDop\EventBrite\Entity\Event $event */
 $event->delete();
 ?>
 ```
@@ -127,7 +127,7 @@ $event->delete();
 You can use the **Media** Entity to **upload()** your files to Eventbrite.
 ```php
 <?php
-/** @var \EventBriteConnector\Entity\Media $media */
+/** @var \KingstonDop\EventBrite\Entity\Media $media */
 $media = new Media();
 $media->setConnector($eb);
 $media->upload('~/Pictures/test-image.jpg', Media::IMAGE_EVENT_LOGO, [
