@@ -5,7 +5,7 @@ Eventbrite Connector is a simple and easy to use PHP Library for integration
 with Eventbrite API v3.
 
 ## Installation ##
-Require the library via composer: `composer require orzmar/eventbrite_connector`
+Require the library via composer: `composer require KingstonCloud/eventbrite`
 
 Install it by running `composer install`
 
