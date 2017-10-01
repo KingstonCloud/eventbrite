@@ -1,11 +1,11 @@
 <?php
 
-namespace EventBriteConnector\Entity;
+namespace KingstonDop\EventBrite\Entity;
 
 /**
  * Class User.
  *
- * @package EventBriteConnector\Entity
+ * @package KingstonDop\EventBrite\Entity
  */
 class User extends Entity {
 

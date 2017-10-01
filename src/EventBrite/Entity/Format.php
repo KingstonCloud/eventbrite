@@ -1,11 +1,11 @@
 <?php
 
-namespace EventBriteConnector\Entity;
+namespace KingstonDop\EventBrite\Entity;
 
 /**
  * Class Format.
  *
- * @package EventBriteConnector\Entity
+ * @package KingstonDop\EventBrite\Entity
  */
 class Format extends Entity {
 

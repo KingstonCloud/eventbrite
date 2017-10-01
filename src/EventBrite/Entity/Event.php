@@ -1,15 +1,15 @@
 <?php
 
-namespace EventBriteConnector\Entity;
+namespace KingstonDop\EventBrite\Entity;
 
-use EventBriteConnector\Entity\Crud\EntityCreateTrait;
-use EventBriteConnector\Entity\Crud\EntityDeleteTrait;
-use EventBriteConnector\Entity\Crud\EntityUpdateTrait;
+use KingstonDop\EventBrite\Entity\Crud\EntityCreateTrait;
+use KingstonDop\EventBrite\Entity\Crud\EntityDeleteTrait;
+use KingstonDop\EventBrite\Entity\Crud\EntityUpdateTrait;
 
 /**
  * Class Event.
  *
- * @package EventBriteConnector\Entity
+ * @package KingstonDop\EventBrite\Entity
  */
 class Event extends Entity {
 

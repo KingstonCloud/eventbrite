@@ -1,14 +1,14 @@
 <?php
 
-namespace EventBriteConnector\Entity\Crud;
+namespace KingstonDop\EventBrite\Entity\Crud;
 
-use EventBriteConnector\Connector;
-use EventBriteConnector\Entity\Entity;
+use KingstonDop\EventBrite\Connector;
+use KingstonDop\EventBrite\Entity\Entity;
 
 /**
  * Class EntityCreateTrait.
  *
- * @package EventBriteConnector\Entity
+ * @package KingstonDop\EventBrite\Entity
  */
 trait EntityCreateTrait {
 

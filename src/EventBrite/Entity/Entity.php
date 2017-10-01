@@ -1,13 +1,13 @@
 <?php
 
-namespace EventBriteConnector\Entity;
+namespace KingstonDop\EventBrite\Entity;
 
-use EventBriteConnector\Connector;
+use KingstonDop\EventBrite\Connector;
 
 /**
  * Class Entity.
  *
- * @package EventBriteConnector\Entity
+ * @package KingstonDop\EventBrite\Entity
  */
 abstract class Entity {
 

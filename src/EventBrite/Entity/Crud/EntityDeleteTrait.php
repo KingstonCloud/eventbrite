@@ -1,13 +1,13 @@
 <?php
 
-namespace EventBriteConnector\Entity\Crud;
+namespace KingstonDop\EventBrite\Entity\Crud;
 
-use EventBriteConnector\Entity\Entity;
+use KingstonDop\EventBrite\Entity\Entity;
 
 /**
  * Class EntityDeleteTrait.
  *
- * @package EventBriteConnector\Entity
+ * @package KingstonDop\EventBrite\Entity
  */
 trait EntityDeleteTrait {
 
